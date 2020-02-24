@@ -31,11 +31,17 @@
          Note that a physical cutout should be configured in pixels for the best results.
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M -80,0 L -50,110 L 50,110 L 80,0 Z
+         M -130,0 L -130,53 L 130,53 L 130,0 Z
     </string>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">110.0px</dimen>
+    <dimen name="status_bar_height_portrait">53.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
 
+    <!-- Whether to intercept inputs on screen off -->
+    <bool name="config_enableKeyHandler">true</bool>
+
+    <!-- Gestures' key codes. If the gesture is not supported set it to 0. -->
+    <integer name="config_doubleTapKeyCode">58</integer>
+    <integer name="config_doubleTapDefault">1</integer>
 </resources>

@@ -39,3 +39,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/ocean/ocean:9/PPOS29.114-134-7-1/0ec93:user/release-keys
+
+#official
+HAVOC_BUILD_TYPE=Official

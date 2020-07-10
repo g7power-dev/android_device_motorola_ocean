@@ -41,6 +41,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint="google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys"
-
-#official
-HAVOC_BUILD_TYPE=Official
